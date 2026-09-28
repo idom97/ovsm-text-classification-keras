@@ -1,0 +1,69 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.env
+.env.*
+
+# IDE / editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# -----------------------------------------------------------------------------
+# Project-generated files
+# The notebook recreates these files from the OVSM-IPGP source bulletins.
+# They are outputs/cache files and are not required in Git to rerun the project.
+# -----------------------------------------------------------------------------
+
+# Downloaded source PDFs and derived text files
+corpus/pdf/*.pdf
+corpus/txt_brut/*
+corpus/txt_propre/*
+
+# Generated metadata and SQLite databases
+data/metadonnees.json
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated learning datasets, audit export, history and predictions
+data/ia/*
+
+# Generated figures
+figures/ia/*
+
+# Trained models and generated model metadata
+modeles/*
+
+# Keep repository documentation and source notebook tracked
+!README.md
+!LISEZ-MOI.md
+!LICENSE.md
+!requirements.txt
+!*.ipynb

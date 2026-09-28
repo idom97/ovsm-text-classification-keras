@@ -1,0 +1,26 @@
+# Projet OVSM-IPGP — Intelligence artificielle et apprentissage
+# Dépendances Python utilisées par le notebook principal.
+# Les modules de la bibliothèque standard (sqlite3, pathlib, json, re,
+# hashlib, datetime, time, unicodedata, warnings, math, os) ne sont pas
+# à installer avec pip.
+
+# Environnement notebook
+jupyterlab
+ipykernel
+
+# Acquisition des bulletins
+requests
+
+# Extraction des PDF
+pdfplumber
+
+# Traitement et analyse des données
+numpy
+pandas
+
+# Visualisations
+matplotlib
+
+# Apprentissage automatique et métriques
+tensorflow
+scikit-learn
